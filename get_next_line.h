@@ -14,7 +14,7 @@
 # define GET_NEXT_LINE_H
 
 # include <stdlib.h>
-//Ifndef BUFFER_SIZE to allow compilation with -D flag else defines it as 1000
+//Ifndef BUFFER_SIZE to allow compilation with -D flag else defines it as 131072
 # ifndef BUFFER_SIZE
 #  define BUFFER_SIZE 131072
 # endif
